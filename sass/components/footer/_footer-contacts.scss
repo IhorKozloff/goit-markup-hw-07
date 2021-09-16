@@ -11,15 +11,16 @@ address {
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
+    & li:not(:first-child) {
+        margin-top: 9px;
+    }
+    & a {
+        color: #ACACB0;
+    }
     
 }
-.contacts-list a {
-    color: #ACACB0;
-}
-.contacts-list li:not(:first-child) {
 
-    margin-top: 9px;
-}
+
 
 .contacts-social-links {
     margin-right: 93px; 
