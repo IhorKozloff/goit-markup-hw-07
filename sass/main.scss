@@ -1,6 +1,8 @@
 @import './base/_specification';
-@import './components/page-header';
-@import './components/navigation-and-contacts';
+@import './base/reusable-components';
+@import './utils/mixin';
+@import './components/heder/page-header';
+@import './components/heder/navigation-and-contacts';
 @import './components/hero-section/hero';
 @import './components/hero-section/overlay';
 @import './components/hero-section/modal-window';
@@ -14,3 +16,4 @@
 @import './components/footer/subscribe';
 @import './components/tabs';
 @import './components/galarry';
+
