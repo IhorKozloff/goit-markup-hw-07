@@ -1,38 +1,35 @@
-.contacts-wrapper {
-    width: 231px;
-    margin-right: 70px;
 
-}
 address {
     margin-top: 20px;
+    font-style: normal;
 }
 .contacts-list {
     display: block;
     font-size: 14px;
     line-height: 1.7;
-    font-style: normal;
     & li:not(:first-child) {
         margin-top: 9px;
     }
     & a {
         color: #ACACB0;
     }
-    
+}
+.contacts-list__contact_light {
+    color: #fff;
 }
 
 
 
-.contacts-social-links {
+.footer-container__tittle {
+    margin: 0 auto 20px auto;
+}
+.footer-container__contacts-social-links {
     margin-right: 93px; 
     padding-top: 12px;
     color: #FFFFFF;
     fill: #FFFFFF;
 }
-
-.connect {
-     margin: 0 auto 20px auto;
-}
-.social-link-footer {
+.social-contacts-set__link_backgroundlight {
    
     background: rgba(255, 255, 255, 0.1);
 }

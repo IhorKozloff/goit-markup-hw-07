@@ -6,6 +6,10 @@ header {
     padding-bottom: 0;
 }
 
-.top-logo {
-   color: black; 
+.header__logo {
+    margin-right: 95px;
+    margin-top: 25px;
+    & span {
+        color: black;  
+    }
 }

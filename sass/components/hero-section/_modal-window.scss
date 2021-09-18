@@ -12,7 +12,7 @@
     left: calc(50% - 264px);
     transform-origin:center;
     transform: scale(1);
-    @include animation-properties (transform);
+    @include anim-p (transform);
 } 
 
 .form-list {
@@ -32,14 +32,14 @@
     left: 100%;
     top: 8px;
     transform: translateX(calc(-100% - 8px));
-    @include animation-properties (border-color);
+    @include anim-p (border-color);
     &:hover .close-icon, &:hover {
         fill: #2196F3;
         border-color: #2196F3;
     }
 }
 .close-icon {
-    @include animation-properties (fill); 
+    @include anim-p (fill); 
 }
 
 .backdrop.is-hidden .modal-window {

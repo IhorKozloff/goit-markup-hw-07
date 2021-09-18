@@ -1,18 +1,21 @@
-@mixin tex-properties ($fz:14px, $lh:1.1, $fw:500, $ls:0.02em) {
+//text-property
+@mixin txt-p ($fz:14px, $lh:1.1, $fw:500) {
     font-size: $fz;
     line-height: $lh;
     font-weight: $fw;
-    letter-spacing: $ls;
 }
-@mixin animation-properties ($tr-ppt, $tr-dur:250ms, $t-t-func:cubic-bezier(0.4, 0, 0.2, 1)) {
-    $transition-property: $tr-ppt;
-    $transition-duration: $tr-dur;
-    transition-timing-function: $t-t-func;
 
+//animation-property
+@mixin anim-p ($tr-ppt) {
+    transition-property: $tr-ppt;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 // Display-Flex-Center-Center
-@mixin dfcc ($df:flex, $jc:center, $ai:center) {
-    display: $df;
-    justify-content: $jc;
-    align-items: $ai;   
+@mixin dfcc () {
+    display: flex;
+    justify-content:center;
+    align-items: center;   
 }
+
