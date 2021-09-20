@@ -1,12 +1,16 @@
-.form-tittle {
+.modal-window__form-tittle {
     @include txt-p (20px, 1.1, bold);
     text-align: center;
 }
-.user-contacts-form {
+.user-blank {
     width: 450px; 
     margin: 12px auto 0 auto;
 }
-.user-contacts-element {
+.user-blank__wrapper {
+    display: block;
+    
+}
+.user-blank__item {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -17,13 +21,13 @@
 
 
 
-.user-label {
+.user-blank__label {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
 }
-.user-input {
+.user-blank__input {
     border: 1px solid ;
     border-color: rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -36,13 +40,13 @@
         border-color: #2196F3;
         outline: none;
     }
-    &:hover + .user-contacts-icon,
-    &:focus + .user-contacts-icon  {
+    &:hover + .user-blank__icon,
+    &:focus + .user-blank__icon  {
         fill: #2196F3;
     }
     
 }
-.user-coment {    
+.user-blank__coment {    
     width: 100%;    
     height: 100%;
     border: 1px solid ;
@@ -62,7 +66,7 @@
         outline: none;
     }
 }
-.user-contacts-icon {
+.user-blank__icon {
     position: absolute;
     left: 12px;
     top: 50%;
@@ -70,12 +74,12 @@
     pointer-events: none;
 }
 
-.chekbox-wrapper {
+.user-blank__chekbox-wrapper {
     margin-top: 20px;
    @include dfcc;
 }
 
-.checkbox-icon {
+.user-blank__checkbox-icon {
     display: block;
     width: 16px;
     height: 15px;
@@ -88,15 +92,15 @@
     } 
 }
 
-.checkbox-link {
+.user-blank__checkbox-link {
     color: #2196F3;
        
 }
 
-.checkbox {
+.user-blank__checkbox {
     appearance: none;
     position: absolute;
-    &:checked + .checkbox-icon {
+    &:checked + .user-blank__checkbox-icon {
         border-color: #2196F3;
         background-image: url(.././images/agree-vector.svg);
         background-color: #2196F3;
@@ -113,18 +117,18 @@
 
 
 
-.checkbox-txt {
+.user-blank__checkbox-txt {
     font-size: 14px;
     line-height: 1.7;
     color: #757575;
     margin-left: 9px;
 }
 
-.checkbox-link-wrapper {
+.user-blank__checkbox-link-wrapper {
     position: relative;
     margin-left: 3px;
 }
-.checkbox-link-wrapper::after {
+.user-blank__checkbox-link-wrapper::after {
     content: '';
     width: 100%;
     height: 1px;

@@ -15,14 +15,11 @@
     @include anim-p (transform);
 } 
 
-.form-list {
-    display: block;  
-    
-  }
+
   
 
 
-.close-btn {
+.modal-window__close-btn {
     width: 30px;
     height: 30px;
     background: #FFFFFF;
@@ -38,7 +35,7 @@
         border-color: #2196F3;
     }
 }
-.close-icon {
+.modal-window__close-icon {
     @include anim-p (fill); 
 }
 
