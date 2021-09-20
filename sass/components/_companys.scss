@@ -1,9 +1,9 @@
-.clients-list {
+.clients {
     justify-content: space-between;
 }
 
 
-.clients-link {
+.clients__link {
     border: 1px solid ;
     border-color: #AFB1B8;
     border-radius: 4px;  
@@ -15,12 +15,12 @@
     &:hover, &:focus {
         border-color: #2196F3;
     }
-    &:hover .clients-icon,
-    &:focus .clients-icon {
+    &:hover .clients__icon,
+    &:focus .clients__icon {
         fill: #2196F3;
     }
 }
-.clients-icon {
+.clients__icon {
     width: 106px;
     height: 60px;
     fill: auto;
